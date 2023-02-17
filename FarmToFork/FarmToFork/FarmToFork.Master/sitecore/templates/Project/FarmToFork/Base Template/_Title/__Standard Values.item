@@ -1,0 +1,16 @@
+----item----
+version: 1
+id: {AED59833-B52A-4E7A-8244-4F7C5E338F46}
+database: master
+path: /sitecore/templates/Project/FarmToFork/Base Template/_Title/__Standard Values
+parent: {3611A0E6-E692-4186-88EE-42AFCE9B7D86}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {3611A0E6-E692-4186-88EE-42AFCE9B7D86}
+templatekey: _Title
+
+----version----
+language: en
+version: 1
+revision: e2dab83e-e2a4-481b-b254-1960056288cb
+

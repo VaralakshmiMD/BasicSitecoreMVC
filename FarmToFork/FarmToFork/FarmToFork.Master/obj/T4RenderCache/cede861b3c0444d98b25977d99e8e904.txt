@@ -1,0 +1,102 @@
+//Revision: 85a4da3e-44d1-4a8d-81c3-a1e6bc8e05e3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// ICarousel Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Feature/FarmToFork/New Carousel Template/Carousel</para>	
+	/// <para>ID: cede861b-3c04-44d9-8b25-977d99e8e904</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICarouselConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ICarousel : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Slides field.
+					/// <para></para>
+					/// <para>Field Type: Treelist</para>		
+					/// <para>Field ID: 5fd5304f-cc80-4989-9b2d-f3482935e6b8</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ICarouselConstants.SlidesFieldName)]
+					IEnumerable<Guid> Slides  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ICarouselConstants{
+
+			public const string TemplateIdString = "cede861b-3c04-44d9-8b25-977d99e8e904";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Carousel";
+
+		
+			
+			public static readonly ID SlidesFieldId = new ID("5fd5304f-cc80-4989-9b2d-f3482935e6b8");
+			public const string SlidesFieldName = "Slides";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Carousel
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Feature/FarmToFork/New Carousel Template/Carousel</para>	
+	/// <para>ID: cede861b-3c04-44d9-8b25-977d99e8e904</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICarouselConstants.TemplateIdString)] //, Cachable = true
+	public partial class Carousel  : GlassBase, ICarousel 
+	{
+	   
+		
+				/// <summary>
+				/// The Slides field.
+				/// <para></para>
+				/// <para>Field Type: Treelist</para>		
+				/// <para>Field ID: 5fd5304f-cc80-4989-9b2d-f3482935e6b8</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICarouselConstants.SlidesFieldName)]
+				public virtual IEnumerable<Guid> Slides  {get; set;}
+					
+			
+	}
+
+}
+

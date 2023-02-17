@@ -1,0 +1,74 @@
+//Revision: 0dc58328-bef3-442e-8918-fe6dac2993bf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// IFTFTenant Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/FTFTenant</para>	
+	/// <para>ID: 00ad6538-7140-4703-affe-0082755bc0a8</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IFTFTenantConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IFTFTenant : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class IFTFTenantConstants{
+
+			public const string TemplateIdString = "00ad6538-7140-4703-affe-0082755bc0a8";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "FTFTenant";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// FTFTenant
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/FTFTenant</para>	
+	/// <para>ID: 00ad6538-7140-4703-affe-0082755bc0a8</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IFTFTenantConstants.TemplateIdString)] //, Cachable = true
+	public partial class FTFTenant  : GlassBase, IFTFTenant 
+	{
+	   
+			
+	}
+
+}
+

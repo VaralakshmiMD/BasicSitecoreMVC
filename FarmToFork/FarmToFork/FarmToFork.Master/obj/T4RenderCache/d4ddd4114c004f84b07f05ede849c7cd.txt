@@ -1,0 +1,74 @@
+//Revision: c4e33840-9a12-412d-b787-6b58ae8c587d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// IPromo Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Folder Template/Promo</para>	
+	/// <para>ID: d4ddd411-4c00-4f84-b07f-05ede849c7cd</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IPromoConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IPromo : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class IPromoConstants{
+
+			public const string TemplateIdString = "d4ddd411-4c00-4f84-b07f-05ede849c7cd";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Promo";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// Promo
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Folder Template/Promo</para>	
+	/// <para>ID: d4ddd411-4c00-4f84-b07f-05ede849c7cd</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IPromoConstants.TemplateIdString)] //, Cachable = true
+	public partial class Promo  : GlassBase, IPromo 
+	{
+	   
+			
+	}
+
+}
+

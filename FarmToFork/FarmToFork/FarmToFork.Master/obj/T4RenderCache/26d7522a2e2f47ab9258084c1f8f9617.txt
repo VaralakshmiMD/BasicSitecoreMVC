@@ -1,0 +1,130 @@
+//Revision: 1a580ab8-6aef-4360-8c7e-eb61882ebd35
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// IRecipeMultiList Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Data Template/RecipeMultiList</para>	
+	/// <para>ID: 26d7522a-2e2f-47ab-9258-084c1f8f9617</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IRecipeMultiListConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IRecipeMultiList : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Headline field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 29382791-1acf-41ab-905f-05a748b028ca</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IRecipeMultiListConstants.HeadlineFieldName)]
+					string Headline  {get; set;}
+			
+			
+					/// <summary>
+					/// The RecipesList field.
+					/// <para></para>
+					/// <para>Field Type: Treelist</para>		
+					/// <para>Field ID: c2305de1-32c6-431c-beee-8a309569e9e0</para>
+					/// <para>Custom Data: generic=RecipeDetail</para>
+					/// </summary>
+					[SitecoreField(IRecipeMultiListConstants.RecipesListsFieldName)]
+					IEnumerable<RecipeDetail> RecipesLists  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IRecipeMultiListConstants{
+
+			public const string TemplateIdString = "26d7522a-2e2f-47ab-9258-084c1f8f9617";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "RecipeMultiList";
+
+		
+			
+			public static readonly ID HeadlineFieldId = new ID("29382791-1acf-41ab-905f-05a748b028ca");
+			public const string HeadlineFieldName = "Headline";
+			
+		
+			
+			public static readonly ID RecipesListsFieldId = new ID("c2305de1-32c6-431c-beee-8a309569e9e0");
+			public const string RecipesListsFieldName = "RecipesList";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// RecipeMultiList
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Data Template/RecipeMultiList</para>	
+	/// <para>ID: 26d7522a-2e2f-47ab-9258-084c1f8f9617</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IRecipeMultiListConstants.TemplateIdString)] //, Cachable = true
+	public partial class RecipeMultiList  : GlassBase, IRecipeMultiList 
+	{
+	   
+		
+				/// <summary>
+				/// The Headline field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 29382791-1acf-41ab-905f-05a748b028ca</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipeMultiListConstants.HeadlineFieldName)]
+				public virtual string Headline  {get; set;}
+					
+		
+				/// <summary>
+				/// The RecipesList field.
+				/// <para></para>
+				/// <para>Field Type: Treelist</para>		
+				/// <para>Field ID: c2305de1-32c6-431c-beee-8a309569e9e0</para>
+				/// <para>Custom Data: generic=RecipeDetail</para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipeMultiListConstants.RecipesListsFieldName)]
+				public virtual IEnumerable<RecipeDetail> RecipesLists  {get; set;}
+					
+			
+	}
+
+}
+

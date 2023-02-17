@@ -1,0 +1,102 @@
+//Revision: 09d93784-fc92-4adb-b596-22cbcfbe16e2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// I_Base_Heading_Decoration Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/_Base Heading Decoration</para>	
+	/// <para>ID: 5ce005b7-1866-4d56-a9fb-795b8069fb2c</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=I_Base_Heading_DecorationConstants.TemplateIdString )] //, Cachable = true
+	public partial interface I_Base_Heading_Decoration : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The DecorationBanner field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: d7f9eb29-08da-4f6d-b69d-f0fb0ccfc4b2</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(I_Base_Heading_DecorationConstants.DecorationBannerFieldName)]
+					string DecorationBanner  {get; set;}
+			
+			
+	}
+
+
+	public static partial class I_Base_Heading_DecorationConstants{
+
+			public const string TemplateIdString = "5ce005b7-1866-4d56-a9fb-795b8069fb2c";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "_Base Heading Decoration";
+
+		
+			
+			public static readonly ID DecorationBannerFieldId = new ID("d7f9eb29-08da-4f6d-b69d-f0fb0ccfc4b2");
+			public const string DecorationBannerFieldName = "DecorationBanner";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// _Base_Heading_Decoration
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/_Base Heading Decoration</para>	
+	/// <para>ID: 5ce005b7-1866-4d56-a9fb-795b8069fb2c</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=I_Base_Heading_DecorationConstants.TemplateIdString)] //, Cachable = true
+	public partial class _Base_Heading_Decoration  : GlassBase, I_Base_Heading_Decoration 
+	{
+	   
+		
+				/// <summary>
+				/// The DecorationBanner field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: d7f9eb29-08da-4f6d-b69d-f0fb0ccfc4b2</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(I_Base_Heading_DecorationConstants.DecorationBannerFieldName)]
+				public virtual string DecorationBanner  {get; set;}
+					
+			
+	}
+
+}
+

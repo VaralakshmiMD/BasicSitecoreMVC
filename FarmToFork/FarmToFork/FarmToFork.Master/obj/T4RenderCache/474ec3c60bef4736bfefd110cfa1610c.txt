@@ -1,0 +1,102 @@
+//Revision: 1ef24e95-5acc-4e0e-a8f8-bcb5a96ad5bb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// I_Base_Image Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/_Base Image</para>	
+	/// <para>ID: 474ec3c6-0bef-4736-bfef-d110cfa1610c</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=I_Base_ImageConstants.TemplateIdString )] //, Cachable = true
+	public partial interface I_Base_Image : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Image field.
+					/// <para></para>
+					/// <para>Field Type: Multilist</para>		
+					/// <para>Field ID: fc580838-74b5-4372-b1f4-4464eba81d95</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(I_Base_ImageConstants.ImagesFieldName)]
+					IEnumerable<Guid> Images  {get; set;}
+			
+			
+	}
+
+
+	public static partial class I_Base_ImageConstants{
+
+			public const string TemplateIdString = "474ec3c6-0bef-4736-bfef-d110cfa1610c";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "_Base Image";
+
+		
+			
+			public static readonly ID ImagesFieldId = new ID("fc580838-74b5-4372-b1f4-4464eba81d95");
+			public const string ImagesFieldName = "Image";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// _Base_Image
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/_Base Image</para>	
+	/// <para>ID: 474ec3c6-0bef-4736-bfef-d110cfa1610c</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=I_Base_ImageConstants.TemplateIdString)] //, Cachable = true
+	public partial class _Base_Image  : GlassBase, I_Base_Image 
+	{
+	   
+		
+				/// <summary>
+				/// The Image field.
+				/// <para></para>
+				/// <para>Field Type: Multilist</para>		
+				/// <para>Field ID: fc580838-74b5-4372-b1f4-4464eba81d95</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(I_Base_ImageConstants.ImagesFieldName)]
+				public virtual IEnumerable<Guid> Images  {get; set;}
+					
+			
+	}
+
+}
+

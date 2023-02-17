@@ -1,0 +1,186 @@
+//Revision: 4aa189bf-26a4-4a17-9c4f-7c17d1d50e46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// IFooter Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Footer</para>	
+	/// <para>ID: f64dbf59-61e6-4499-ba08-8276dc2bbefd</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IFooterConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IFooter : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The CopyRight field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 7f1186ec-b83a-4327-848d-2f53966ed87a</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IFooterConstants.CopyRightFieldName)]
+					string CopyRight  {get; set;}
+			
+			
+					/// <summary>
+					/// The Logo field.
+					/// <para></para>
+					/// <para>Field Type: Image</para>		
+					/// <para>Field ID: 9d4c1463-86ae-4863-829d-6791f663a917</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IFooterConstants.LogoFieldName)]
+					Image Logo  {get; set;}
+			
+			
+					/// <summary>
+					/// The LogoLink field.
+					/// <para></para>
+					/// <para>Field Type: General Link</para>		
+					/// <para>Field ID: 130fb7d2-4392-491f-9483-486a6a1ef45a</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IFooterConstants.LogoLinkFieldName)]
+					Link LogoLink  {get; set;}
+			
+			
+					/// <summary>
+					/// The theme field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: b7759fee-703c-40d8-849e-d867e67d55ab</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IFooterConstants.ThemeFieldName)]
+					string Theme  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IFooterConstants{
+
+			public const string TemplateIdString = "f64dbf59-61e6-4499-ba08-8276dc2bbefd";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Footer";
+
+		
+			
+			public static readonly ID CopyRightFieldId = new ID("7f1186ec-b83a-4327-848d-2f53966ed87a");
+			public const string CopyRightFieldName = "CopyRight";
+			
+		
+			
+			public static readonly ID LogoFieldId = new ID("9d4c1463-86ae-4863-829d-6791f663a917");
+			public const string LogoFieldName = "Logo";
+			
+		
+			
+			public static readonly ID LogoLinkFieldId = new ID("130fb7d2-4392-491f-9483-486a6a1ef45a");
+			public const string LogoLinkFieldName = "LogoLink";
+			
+		
+			
+			public static readonly ID ThemeFieldId = new ID("b7759fee-703c-40d8-849e-d867e67d55ab");
+			public const string ThemeFieldName = "theme";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Footer
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Footer</para>	
+	/// <para>ID: f64dbf59-61e6-4499-ba08-8276dc2bbefd</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IFooterConstants.TemplateIdString)] //, Cachable = true
+	public partial class Footer  : GlassBase, IFooter 
+	{
+	   
+		
+				/// <summary>
+				/// The CopyRight field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 7f1186ec-b83a-4327-848d-2f53966ed87a</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IFooterConstants.CopyRightFieldName)]
+				public virtual string CopyRight  {get; set;}
+					
+		
+				/// <summary>
+				/// The Logo field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: 9d4c1463-86ae-4863-829d-6791f663a917</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IFooterConstants.LogoFieldName)]
+				public virtual Image Logo  {get; set;}
+					
+		
+				/// <summary>
+				/// The LogoLink field.
+				/// <para></para>
+				/// <para>Field Type: General Link</para>		
+				/// <para>Field ID: 130fb7d2-4392-491f-9483-486a6a1ef45a</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IFooterConstants.LogoLinkFieldName)]
+				public virtual Link LogoLink  {get; set;}
+					
+		
+				/// <summary>
+				/// The theme field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: b7759fee-703c-40d8-849e-d867e67d55ab</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IFooterConstants.ThemeFieldName)]
+				public virtual string Theme  {get; set;}
+					
+			
+	}
+
+}
+

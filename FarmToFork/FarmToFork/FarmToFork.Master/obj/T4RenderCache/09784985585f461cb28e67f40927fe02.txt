@@ -1,0 +1,74 @@
+//Revision: ff34a627-0f35-466f-8737-9fd3cd61d7b6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// ISlideFolder Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Feature/FarmToFork/New Carousel Template/SlideFolder</para>	
+	/// <para>ID: 09784985-585f-461c-b28e-67f40927fe02</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISlideFolderConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ISlideFolder : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class ISlideFolderConstants{
+
+			public const string TemplateIdString = "09784985-585f-461c-b28e-67f40927fe02";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "SlideFolder";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// SlideFolder
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Feature/FarmToFork/New Carousel Template/SlideFolder</para>	
+	/// <para>ID: 09784985-585f-461c-b28e-67f40927fe02</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISlideFolderConstants.TemplateIdString)] //, Cachable = true
+	public partial class SlideFolder  : GlassBase, ISlideFolder 
+	{
+	   
+			
+	}
+
+}
+

@@ -1,0 +1,159 @@
+//Revision: dc988206-c517-4ff4-93c4-7e6296db593e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// IRecipeImage Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Data Template/RecipeImage</para>	
+	/// <para>ID: c028dcd0-e9a8-48bc-ac85-555316522249</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IRecipeImageConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IRecipeImage : IGlassBase , global::Foundation.Serialization.I_Base_Image, global::Foundation.Serialization.I_Title, global::Foundation.Serialization.I_Base_Meta_Information, global::Foundation.Serialization.I_Base_Heading_Decoration
+	{
+			
+	}
+
+
+	public static partial class IRecipeImageConstants{
+
+			public const string TemplateIdString = "c028dcd0-e9a8-48bc-ac85-555316522249";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "RecipeImage";
+
+		
+			
+			public static readonly ID ImagesFieldId = new ID("fc580838-74b5-4372-b1f4-4464eba81d95");
+			public const string ImagesFieldName = "Image";
+			
+		
+			
+			public static readonly ID TitleFieldId = new ID("ae26dccd-dfce-4443-a5dc-6f219439e23e");
+			public const string TitleFieldName = "Title";
+			
+		
+			
+			public static readonly ID MetaDescriptionFieldId = new ID("3edda3cb-87a3-4f76-a2f8-6120bb2ba350");
+			public const string MetaDescriptionFieldName = "MetaDescription";
+			
+		
+			
+			public static readonly ID MetaTitleFieldId = new ID("a65570d8-480c-4907-861c-d630eba2d4c3");
+			public const string MetaTitleFieldName = "MetaTitle";
+			
+		
+			
+			public static readonly ID DecorationBannerFieldId = new ID("d7f9eb29-08da-4f6d-b69d-f0fb0ccfc4b2");
+			public const string DecorationBannerFieldName = "DecorationBanner";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// RecipeImage
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Data Template/RecipeImage</para>	
+	/// <para>ID: c028dcd0-e9a8-48bc-ac85-555316522249</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IRecipeImageConstants.TemplateIdString)] //, Cachable = true
+	public partial class RecipeImage  : GlassBase, IRecipeImage 
+	{
+	   
+		
+				/// <summary>
+				/// The Image field.
+				/// <para></para>
+				/// <para>Field Type: Multilist</para>		
+				/// <para>Field ID: fc580838-74b5-4372-b1f4-4464eba81d95</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipeImageConstants.ImagesFieldName)]
+				public virtual IEnumerable<Guid> Images  {get; set;}
+					
+		
+				/// <summary>
+				/// The Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: ae26dccd-dfce-4443-a5dc-6f219439e23e</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipeImageConstants.TitleFieldName)]
+				public virtual string Title  {get; set;}
+					
+		
+				/// <summary>
+				/// The MetaDescription field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 3edda3cb-87a3-4f76-a2f8-6120bb2ba350</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipeImageConstants.MetaDescriptionFieldName)]
+				public virtual string MetaDescription  {get; set;}
+					
+		
+				/// <summary>
+				/// The MetaTitle field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: a65570d8-480c-4907-861c-d630eba2d4c3</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipeImageConstants.MetaTitleFieldName)]
+				public virtual string MetaTitle  {get; set;}
+					
+		
+				/// <summary>
+				/// The DecorationBanner field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: d7f9eb29-08da-4f6d-b69d-f0fb0ccfc4b2</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipeImageConstants.DecorationBannerFieldName)]
+				public virtual string DecorationBanner  {get; set;}
+					
+			
+	}
+
+}
+

@@ -1,0 +1,17 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model Foundation.Serialization.AboutUs
+
+<div class="abt-row">
+    <div class="abt-col">
+        <h2>@Html.Glass().Editable(Model, x => x.Title)</h2>
+        @Html.Glass().Editable(Model, x => x.Image)
+
+    </div>
+    <div class="abt-col abt-col-txt align-l">
+        <h3>@Html.Glass().Editable(Model, x => x.SubTitle)</h3>
+        <p>
+            <H4>@Html.Glass().Editable(Model, x => x.Description)</H4>
+        </p>
+    </div>
+</div>
+

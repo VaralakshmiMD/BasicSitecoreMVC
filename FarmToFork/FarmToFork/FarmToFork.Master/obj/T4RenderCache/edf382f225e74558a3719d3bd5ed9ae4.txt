@@ -1,0 +1,74 @@
+//Revision: 9f2adab6-d2a3-4733-850d-35bc358a4c33
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// IRecipeDetails Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Folder Template/RecipeDetails</para>	
+	/// <para>ID: edf382f2-25e7-4558-a371-9d3bd5ed9ae4</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IRecipeDetailsConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IRecipeDetails : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class IRecipeDetailsConstants{
+
+			public const string TemplateIdString = "edf382f2-25e7-4558-a371-9d3bd5ed9ae4";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "RecipeDetails";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// RecipeDetails
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Folder Template/RecipeDetails</para>	
+	/// <para>ID: edf382f2-25e7-4558-a371-9d3bd5ed9ae4</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IRecipeDetailsConstants.TemplateIdString)] //, Cachable = true
+	public partial class RecipeDetails  : GlassBase, IRecipeDetails 
+	{
+	   
+			
+	}
+
+}
+

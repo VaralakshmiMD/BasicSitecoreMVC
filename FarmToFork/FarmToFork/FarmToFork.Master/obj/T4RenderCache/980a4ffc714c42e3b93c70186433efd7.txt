@@ -1,0 +1,158 @@
+//Revision: 591654e0-19b6-4a6a-8e11-81e2bb32f0ac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// I_Base_Content Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/_Base Content</para>	
+	/// <para>ID: 980a4ffc-714c-42e3-b93c-70186433efd7</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=I_Base_ContentConstants.TemplateIdString )] //, Cachable = true
+	public partial interface I_Base_Content : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The ContentHeading field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 8f78b690-6420-4356-9cc5-617e4caaae5e</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(I_Base_ContentConstants.ContentHeadingFieldName)]
+					string ContentHeading  {get; set;}
+			
+			
+					/// <summary>
+					/// The ContentIntro field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 082cb685-77be-4972-a846-ed9db631e1cc</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(I_Base_ContentConstants.ContentIntroFieldName)]
+					string ContentIntro  {get; set;}
+			
+			
+					/// <summary>
+					/// The Description field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: 7e49c2b2-4ba6-4ba4-ab1b-36c7e976b4d6</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(I_Base_ContentConstants.DescriptionFieldName)]
+					string Description  {get; set;}
+			
+			
+	}
+
+
+	public static partial class I_Base_ContentConstants{
+
+			public const string TemplateIdString = "980a4ffc-714c-42e3-b93c-70186433efd7";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "_Base Content";
+
+		
+			
+			public static readonly ID ContentHeadingFieldId = new ID("8f78b690-6420-4356-9cc5-617e4caaae5e");
+			public const string ContentHeadingFieldName = "ContentHeading";
+			
+		
+			
+			public static readonly ID ContentIntroFieldId = new ID("082cb685-77be-4972-a846-ed9db631e1cc");
+			public const string ContentIntroFieldName = "ContentIntro";
+			
+		
+			
+			public static readonly ID DescriptionFieldId = new ID("7e49c2b2-4ba6-4ba4-ab1b-36c7e976b4d6");
+			public const string DescriptionFieldName = "Description";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// _Base_Content
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/_Base Content</para>	
+	/// <para>ID: 980a4ffc-714c-42e3-b93c-70186433efd7</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=I_Base_ContentConstants.TemplateIdString)] //, Cachable = true
+	public partial class _Base_Content  : GlassBase, I_Base_Content 
+	{
+	   
+		
+				/// <summary>
+				/// The ContentHeading field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 8f78b690-6420-4356-9cc5-617e4caaae5e</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(I_Base_ContentConstants.ContentHeadingFieldName)]
+				public virtual string ContentHeading  {get; set;}
+					
+		
+				/// <summary>
+				/// The ContentIntro field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 082cb685-77be-4972-a846-ed9db631e1cc</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(I_Base_ContentConstants.ContentIntroFieldName)]
+				public virtual string ContentIntro  {get; set;}
+					
+		
+				/// <summary>
+				/// The Description field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: 7e49c2b2-4ba6-4ba4-ab1b-36c7e976b4d6</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(I_Base_ContentConstants.DescriptionFieldName)]
+				public virtual string Description  {get; set;}
+					
+			
+	}
+
+}
+

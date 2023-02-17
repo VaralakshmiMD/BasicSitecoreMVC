@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/layout" ItemIcon="/temp/IconCache/Applications/16x16/windows.png" />
+  <Item ItemPath="/sitecore/layout/Layouts" ItemIcon="/temp/IconCache/Applications/16x16/windows.png" />
+  <Item ItemPath="/sitecore/layout/Layouts/Project" ItemIcon="/temp/IconCache/applications/32x32/folder_window.png" />
+  <Item ItemPath="/sitecore/layout/Layouts/Project/FarmToFork" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout/Placeholder Settings" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout/Placeholder Settings/Project" ItemIcon="/temp/IconCache/applications/32x32/folder_window.png" />
+  <Item ItemPath="/sitecore/layout/Renderings" ItemIcon="/temp/IconCache/Software/16x16/elements1.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Project" ItemIcon="/temp/IconCache/applications/32x32/folder_window.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Project/FarmToFork" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/media library" ItemIcon="/temp/IconCache/Applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/media library/Images" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/media library/Images/FTF" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/templates/Project" ItemIcon="/temp/IconCache/applications/32x32/folder_window.png" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/BadamPhirni" ItemIcon="/temp/IconCache/-/media/66E66C1400C4494495B80B2F99814740.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/Coconut Mango Oatmeal" ItemIcon="/temp/IconCache/-/media/06118F90BC94437E8CBAA698404C451D.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/Detox herb drink" ItemIcon="/temp/IconCache/-/media/9B3928D82D004985A5FDD6F8146D0D89.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/detox snacks" ItemIcon="/temp/IconCache/-/media/B4C77864DB504074B52D9B9758CA7853.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/diet" ItemIcon="/temp/IconCache/-/media/B7EF58AEED1C4491929330195E1BB09E.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/DryNuts" ItemIcon="/temp/IconCache/-/media/DB7A21B88E7C44AFBD6D2F9EF47125FC.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/Fruit Bowl" ItemIcon="/temp/IconCache/-/media/85B4EF14B933499FBDFAC750810E5C56.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/fruitydrink" ItemIcon="/temp/IconCache/-/media/AF9EBFD8B38B4E948405A1022E2B1D31.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/healthy snack" ItemIcon="/temp/IconCache/-/media/AA67FC195C9A48D88BC88BB9E1F1AC3B.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/herbal tea" ItemIcon="/temp/IconCache/-/media/58D8CD94632C4E6DBF447E7363D4C77A.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/Leafygreens" ItemIcon="/temp/IconCache/-/media/C29113A04B854501B917F387E004E567.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/localfruits" ItemIcon="/temp/IconCache/-/media/25F3F2A08F8B48E2995042C5B5115E6A.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/logo" ItemIcon="/temp/IconCache/-/media/5422C4397AD14674B54B838557079E20.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/Mango Dessert in a Glass" ItemIcon="/temp/IconCache/-/media/04FFF9E102AE4CF7BF2EE2BA4BDB6B55.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/mango juice" ItemIcon="/temp/IconCache/-/media/FFEA1C101224417189ADE258899AFC52.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/Mango Lassi Popsicles" ItemIcon="/temp/IconCache/-/media/F224242100A04FF28DF9BADA829591AA.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/no bake apple" ItemIcon="/temp/IconCache/-/media/53DD0C5E50A346AE920D25BE6411FD80.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/nuts" ItemIcon="/temp/IconCache/-/media/CFCA1A26A0824693AC17887387260E55.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/oats" ItemIcon="/temp/IconCache/-/media/9EC78257F70D47A7988A502E32C6F8DA.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/spices" ItemIcon="/temp/IconCache/-/media/2D814CBB5AF04E2CA50C09713987D849.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/summer drink" ItemIcon="/temp/IconCache/-/media/383DD1013A124B06A7643D1210F7CB6B.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/Superfood" ItemIcon="/temp/IconCache/-/media/5FC338E7B77D410A9A3606A33FAF0214.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/Thandai Phirni" ItemIcon="/temp/IconCache/-/media/A4309DA148774F8C9094F53CBBE7810D.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/Time to Detox" ItemIcon="/temp/IconCache/-/media/35BD83DEC4114E7CBE2BC163E499CE21.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/watermelon" ItemIcon="/temp/IconCache/-/media/54713228400843EDA9FB10365A98A593.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/banner" ItemIcon="/temp/IconCache/-/media/FE2375E255FA4F999A31E2511B5B50BE.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecDetails/content" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecDetails/bodydescription" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecDetails/content/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecDetails/detail/type" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecDetails/detail/Duration" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecDetails/bodydescription/metatitle" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecDetails/bodydescription/ingredients" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/Falooda" ItemIcon="/temp/IconCache/-/media/D4736411C5A1438387B19AB4D25D76BD.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/FTF/wholegrains" ItemIcon="/temp/IconCache/-/media/1211789E658B499380EB0116FF3E8C4E.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecDetails" ItemIcon="/temp/IconCache/apps/32x32/tree 2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/Meals" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipesDetails/content" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipesDetails/bodydescription" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/ComponentCard/Card/Card/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipesDetails/content/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipesDetails/detail/type" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipesDetails/bodydescription/metatitle" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipesDetails/bodydescription/description" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipesDetails/bodydescription/ingredients" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/layout/Placeholder Settings/Project/FarmToFork" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout/Placeholder Settings/Project/FarmToFork/topnav" ItemIcon="/temp/iconcache/business/16x16/table_selection_block.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/FarmToFork" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/FarmToFork/Component" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Component/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/selection.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Component/ComponentDetails" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Component/ComponentDetails/CTAButton" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Component/ComponentDetails/Description" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Component/ComponentDetails/Image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Component/ComponentDetails/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/ComponentCard/Card" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/ComponentCard/Card/Card" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Header" ItemIcon="/temp/IconCache/Software/32x32/layout_horizontal.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Header/__Standard Values" ItemIcon="/temp/iconcache/software/32x32/layout_horizontal.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Header/HeaderDetails" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Header/HeaderDetails/banner" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Header/HeaderDetails/Logo" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Header/HeaderDetails/LogoLink" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Link" ItemIcon="/temp/IconCache/Apps/32x32/link_broken.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Link/__Standard Values" ItemIcon="/temp/iconcache/apps/32x32/link_broken.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Link/LinkDetails" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Link/LinkDetails/NavLink" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Content" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Content/Content" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Content/Content/ContentHeading" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Content/Content/ContentIntro" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Content Body" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Content Body/Content" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Content Body/Content/ContentBody" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Heading Decoration" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Heading Decoration/Decoration" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Heading Decoration/Decoration/DecorationBanner" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Image" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Image/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Image/Image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Image/Image/Image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Meta Information" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Meta Information/Meta" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Meta Information/Meta/MetaDescription" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Meta Information/Meta/MetaTitle" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Navigation" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Navigation/Navigation" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Navigation/Navigation/ExcludeFromNavigation" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Content" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Content/Content" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Content/Content/Content" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_PageNotFound" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_PageNotFound/ErrorPageDetails" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Title" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Title/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Title/Content" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Title/Content/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeImage" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeImage/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipesTypes" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipesTypes/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipesDetails" ItemIcon="/temp/IconCache/apps/32x32/tree 2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipesDetails/__Standard Values" ItemIcon="/temp/iconcache/apps/32x32/tree 2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipesDetails/content/image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipesDetails/detail" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipesDetails/detail/skill level" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/FPage" ItemIcon="/temp/IconCache/Office/32x32/window.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/FPage/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/window.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/FTFSite" ItemIcon="/temp/IconCache/Office/32x32/flag_generic.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/FTFSite/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/flag_generic.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/FTFSite Folder" ItemIcon="/temp/IconCache/Office/32x32/cubes.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/FTFSite Folder/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/cubes.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/FTFTenant/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/office_building2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/FTFTenant Folder" ItemIcon="/temp/IconCache/Office/32x32/office_building.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/FTFTenant Folder/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/office_building.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/FarmToFork/FTFCarousel" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipesDetails/detail/Duration" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/layout/Placeholder Settings/Project/FarmToFork/Carousel" ItemIcon="/temp/iconcache/business/16x16/table_selection_block.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Footer/FooterDetails/Logo" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Footer/FooterDetails/LogoLink" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Footer/FooterDetails" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/AboutUs/AboutUs" ItemIcon="/temp/iconcache/office/32x32/add_user.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/AboutUs/AboutUs/about" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/AboutUs/AboutUs/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/add_user.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/AboutUs/AboutUs/about/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/AboutUs/AboutUs/about/SubTitle" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/AboutUs/AboutUs/about/Description" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/AboutUs/AboutUs/about/Image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Footer" ItemIcon="/temp/IconCache/Office/32x32/document_footer.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Footer/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/document_footer.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Navigation/Footer/FooterDetails/theme" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/FarmToFork/AboutUs" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/FarmToFork/Carousel" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/Category" ItemIcon="/temp/IconCache/Office/32x32/folders2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/MultiList" ItemIcon="/temp/IconCache/Office/32x32/folders2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/Promo" ItemIcon="/temp/IconCache/Office/32x32/folders2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/AboutUs" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails" ItemIcon="/temp/iconcache/apps/32x32/tree 2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails/__Standard Values" ItemIcon="/temp/iconcache/apps/32x32/tree 2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails/bodydescription/description" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails/bodydescription/ingredients" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails/bodydescription/metatitle" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails/bodydescription" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails/content/image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails/content/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails/content" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails/detail/Duration" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails/detail/skill level" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails/detail/type" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails/detail" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipesCategory/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/bullet_ball_red.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeMultiList" ItemIcon="/temp/IconCache/applications/32x32/star_green.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeMultiList/MultiList Items" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeMultiList/MultiList Items/RecipesList" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeMultiList/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/star_green.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/SinglePage" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/SamplePage/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/window.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Site" ItemIcon="/temp/iconcache/office/32x32/flag_generic.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Site/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/flag_generic.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Site Folder" ItemIcon="/temp/iconcache/office/32x32/cubes.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Site Folder/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/cubes.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/FTFTenant" ItemIcon="/temp/iconcache/office/32x32/office_building2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Tenant Folder" ItemIcon="/temp/iconcache/office/32x32/office_building.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Tenant Folder/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/office_building.png" />
+  <Item ItemPath="/sitecore/layout/Layouts/Project/FarmToFork/MainLayout" ItemIcon="/temp/iconcache/applications/32x32/window.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_Base Content/Content/Description" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/Category/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/folders2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/MultiList/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/folders2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/Promo/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/folders2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipeDetails" ItemIcon="/temp/IconCache/Office/32x32/folders2.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Folder Template/RecipeDetails/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/folders2.png" />
+  <Item ItemPath="/sitecore/layout/Placeholder Settings/Project/FarmToFork/MID-Col" ItemIcon="/temp/iconcache/business/16x16/table_selection_block.png" />
+  <Item ItemPath="/sitecore/layout/Placeholder Settings/Project/FarmToFork/midium-col" ItemIcon="/temp/iconcache/business/16x16/table_selection_block.png" />
+  <Item ItemPath="/sitecore/layout/Placeholder Settings/Project/FarmToFork/Right-Col" ItemIcon="/temp/iconcache/business/16x16/table_selection_block.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/Component" ItemIcon="/temp/IconCache/Applications/32x32/selection.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/ComponentCard" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/Carousel" ItemIcon="/temp/IconCache/Office/32x32/card_terminal.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/Carousel/__Standard Values" ItemIcon="/temp/IconCache/office/32x32/folder.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/Carousel/SlideSection" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/Carousel/SlideSection/Slides" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/CarouselFolder" ItemIcon="/temp/IconCache/Office/32x32/folders2.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/CarouselFolder/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/folders2.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/Slide" ItemIcon="/temp/IconCache/Applications/32x32/navigate_right2.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/Slide/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/navigate_right2.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/Slide/SlideSection" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/Slide/SlideSection/CTA" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/Slide/SlideSection/Image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/Slide/SlideSection/SubTitle" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/Slide/SlideSection/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/SlideFolder" ItemIcon="/temp/IconCache/Office/32x32/folder_document2.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/New Carousel Template/SlideFolder/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/folder_document2.png" />
+  <Item ItemPath="/sitecore/templates/Feature/FarmToFork/ComponentCard/Card/Card/Recipesbox" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipesCategory" ItemIcon="/temp/IconCache/Applications/32x32/bullet_ball_red.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipesCategory/Category List" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipesCategory/Category List/Category Name" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail/Content/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail/Content" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail/Details/Type" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail/Details/Duration" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail/BodyDescription/MetaTitle" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail/BodyDescription/Ingredients" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail" ItemIcon="/temp/IconCache/Office/32x32/tree.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail/BodyDescription" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail/BodyDescription/Description" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail/Content/Image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail/Details" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail/Details/Skill Level" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeMultiList/MultiList Items/RecipesList" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeMultiList/MultiList Items/RecipesList" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/layout/Placeholder Settings/Project/FarmToFork/bottom" ItemIcon="/temp/iconcache/business/16x16/table_selection_block.png" />
+  <Item ItemPath="/sitecore/layout/Placeholder Settings/Project/FarmToFork/Left-Col" ItemIcon="/temp/iconcache/business/16x16/table_selection_block.png" />
+  <Item ItemPath="/sitecore/layout/Placeholder Settings/Project/FarmToFork/master" ItemIcon="/temp/iconcache/business/16x16/table_selection_block.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Footer" ItemIcon="/temp/iconcache/office/32x32/document_footer.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Footer/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/document_footer.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Footer/FooterDetails/Logo" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Footer/FooterDetails/LogoLink" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Footer/FooterDetails/theme" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Footer/FooterDetails" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Footer/FooterDetails/CopyRight" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/layout/Placeholder Settings/Project/FarmToFork/ONECol" ItemIcon="/temp/iconcache/business/16x16/table_selection_block.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/FarmToFork/Feature RecipesList" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/FarmToFork/Footer" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/FarmToFork/RecipesDetails" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Project/FarmToFork/ONECol" ItemIcon="/temp/iconcache/software/32x32/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Project/FarmToFork/THREECol" ItemIcon="/temp/iconcache/software/32x32/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Project/FarmToFork/TWOCol" ItemIcon="/temp/iconcache/software/32x32/element.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/tree.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Data Template/RecipeMultiList/MultiList Items/Headline" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/HomePage" ItemIcon="/temp/iconcache/office/16x16/home.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/SamplePage" ItemIcon="/temp/iconcache/office/32x32/window.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Promo" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Promo/promo" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Promo/promo/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Promo/promo/Description" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Promo/promo/Image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Promo/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Feature/FarmToFork/Header" ItemIcon="/temp/iconcache/software/32x32/element.png" />
+  <Item ItemPath="/sitecore/templates/Project/FarmToFork/Base Template/_PageNotFound/ErrorPageDetails/ErrorPage" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+</ItemIconCache>

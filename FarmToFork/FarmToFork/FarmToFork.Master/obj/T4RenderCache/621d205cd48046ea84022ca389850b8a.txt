@@ -1,0 +1,298 @@
+//Revision: 5eefe714-e63d-46fb-a1ae-e0ae4d213211
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// IRecipesDetails Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails</para>	
+	/// <para>ID: 621d205c-d480-46ea-8402-2ca389850b8a</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IRecipesDetailsConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IRecipesDetails : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The description field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: f0eabda0-dd0e-4124-88c0-803a80b32b2b</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IRecipesDetailsConstants.DescriptionFieldName)]
+					string Description  {get; set;}
+			
+			
+					/// <summary>
+					/// The ingredients field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: 0c30b514-f3cb-4906-b00c-6783b89304fe</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IRecipesDetailsConstants.IngredientsFieldName)]
+					string Ingredients  {get; set;}
+			
+			
+					/// <summary>
+					/// The metatitle field.
+					/// <para></para>
+					/// <para>Field Type: Multi-Line Text</para>		
+					/// <para>Field ID: 6a2f9a00-56b3-4139-8bfe-be5004a8aa67</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IRecipesDetailsConstants.MetatitleFieldName)]
+					string Metatitle  {get; set;}
+			
+			
+					/// <summary>
+					/// The image field.
+					/// <para></para>
+					/// <para>Field Type: Image</para>		
+					/// <para>Field ID: 50a63ba6-b639-479d-8f02-890afc7f3dfb</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IRecipesDetailsConstants.ImageFieldName)]
+					Image Image  {get; set;}
+			
+			
+					/// <summary>
+					/// The Title field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 4eb1fd71-5d39-4831-912e-d0c8ad6d54e0</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IRecipesDetailsConstants.TitleFieldName)]
+					string Title  {get; set;}
+			
+			
+					/// <summary>
+					/// The Duration field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 8eef9af4-1b4d-447e-a476-e533aa98550f</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IRecipesDetailsConstants.DurationFieldName)]
+					string Duration  {get; set;}
+			
+			
+					/// <summary>
+					/// The skill level field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 06cd6194-10b7-488c-a730-168a7df592f0</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IRecipesDetailsConstants.Skill_LevelFieldName)]
+					string Skill_Level  {get; set;}
+			
+			
+					/// <summary>
+					/// The type field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 873857a2-c86c-4edd-92cb-b5d64925fc60</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IRecipesDetailsConstants.TypeFieldName)]
+					string Type  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IRecipesDetailsConstants{
+
+			public const string TemplateIdString = "621d205c-d480-46ea-8402-2ca389850b8a";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "RecipesDetails";
+
+		
+			
+			public static readonly ID DescriptionFieldId = new ID("f0eabda0-dd0e-4124-88c0-803a80b32b2b");
+			public const string DescriptionFieldName = "description";
+			
+		
+			
+			public static readonly ID IngredientsFieldId = new ID("0c30b514-f3cb-4906-b00c-6783b89304fe");
+			public const string IngredientsFieldName = "ingredients";
+			
+		
+			
+			public static readonly ID MetatitleFieldId = new ID("6a2f9a00-56b3-4139-8bfe-be5004a8aa67");
+			public const string MetatitleFieldName = "metatitle";
+			
+		
+			
+			public static readonly ID ImageFieldId = new ID("50a63ba6-b639-479d-8f02-890afc7f3dfb");
+			public const string ImageFieldName = "image";
+			
+		
+			
+			public static readonly ID TitleFieldId = new ID("4eb1fd71-5d39-4831-912e-d0c8ad6d54e0");
+			public const string TitleFieldName = "Title";
+			
+		
+			
+			public static readonly ID DurationFieldId = new ID("8eef9af4-1b4d-447e-a476-e533aa98550f");
+			public const string DurationFieldName = "Duration";
+			
+		
+			
+			public static readonly ID Skill_LevelFieldId = new ID("06cd6194-10b7-488c-a730-168a7df592f0");
+			public const string Skill_LevelFieldName = "skill level";
+			
+		
+			
+			public static readonly ID TypeFieldId = new ID("873857a2-c86c-4edd-92cb-b5d64925fc60");
+			public const string TypeFieldName = "type";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// RecipesDetails
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/RecipesDetails</para>	
+	/// <para>ID: 621d205c-d480-46ea-8402-2ca389850b8a</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IRecipesDetailsConstants.TemplateIdString)] //, Cachable = true
+	public partial class RecipesDetails  : GlassBase, IRecipesDetails 
+	{
+	   
+		
+				/// <summary>
+				/// The description field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: f0eabda0-dd0e-4124-88c0-803a80b32b2b</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipesDetailsConstants.DescriptionFieldName)]
+				public virtual string Description  {get; set;}
+					
+		
+				/// <summary>
+				/// The ingredients field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: 0c30b514-f3cb-4906-b00c-6783b89304fe</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipesDetailsConstants.IngredientsFieldName)]
+				public virtual string Ingredients  {get; set;}
+					
+		
+				/// <summary>
+				/// The metatitle field.
+				/// <para></para>
+				/// <para>Field Type: Multi-Line Text</para>		
+				/// <para>Field ID: 6a2f9a00-56b3-4139-8bfe-be5004a8aa67</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipesDetailsConstants.MetatitleFieldName)]
+				public virtual string Metatitle  {get; set;}
+					
+		
+				/// <summary>
+				/// The image field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: 50a63ba6-b639-479d-8f02-890afc7f3dfb</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipesDetailsConstants.ImageFieldName)]
+				public virtual Image Image  {get; set;}
+					
+		
+				/// <summary>
+				/// The Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 4eb1fd71-5d39-4831-912e-d0c8ad6d54e0</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipesDetailsConstants.TitleFieldName)]
+				public virtual string Title  {get; set;}
+					
+		
+				/// <summary>
+				/// The Duration field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 8eef9af4-1b4d-447e-a476-e533aa98550f</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipesDetailsConstants.DurationFieldName)]
+				public virtual string Duration  {get; set;}
+					
+		
+				/// <summary>
+				/// The skill level field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 06cd6194-10b7-488c-a730-168a7df592f0</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipesDetailsConstants.Skill_LevelFieldName)]
+				public virtual string Skill_Level  {get; set;}
+					
+		
+				/// <summary>
+				/// The type field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 873857a2-c86c-4edd-92cb-b5d64925fc60</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipesDetailsConstants.TypeFieldName)]
+				public virtual string Type  {get; set;}
+					
+			
+	}
+
+}
+

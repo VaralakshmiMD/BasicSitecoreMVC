@@ -1,0 +1,41 @@
+﻿@using Sitecore.Mvc
+@using Glass.Mapper.Sc.Web.Mvc
+@model Foundation.Serialization.RecipeDetail
+
+<div class="container">
+    <div class="col-md-12">
+        <div class="recipe-set ">
+            <div class="wrapper-detail-contents">
+                <div class="single-recipe-detail">
+                    <div class="wrapper-recipe-heading">
+                        <div class="heading">
+                            <h2>@Html.Glass().Editable(Model, x => x.Title)</h2>
+                        </div>
+                    </div>
+
+                    <div class="slider-recipe-detail">
+                        <div class="wrapper-slider-detail">
+                            @Html.Glass().Editable(Model, x => x.Image)
+                        </div>
+                    </div>
+                </div>
+                <div class="recipe-detail-body">
+                    <ul class="pre-tags">
+                        <li><span>@Html.Glass().Editable(Model, x => x.Type)</span></li>
+                        <li><span>@Html.Glass().Editable(Model, x => x.Duration)</span></li>
+                        <li><span>@Html.Glass().Editable(Model, x => x.Skill_Level)</span></li>
+                    </ul>
+                    <div class="separator-post"></div>
+                    <div class="ingredients-checkbox">
+                        <div class="ingredients">
+                            <h3>@Html.Glass().Editable(Model, x => x.Ingredients)</h3>
+                        </div>
+                    </div>
+                    <div class="recipe-steps">
+                        <h3 class="lined">@Html.Glass().Editable(Model, x => x.Description)</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

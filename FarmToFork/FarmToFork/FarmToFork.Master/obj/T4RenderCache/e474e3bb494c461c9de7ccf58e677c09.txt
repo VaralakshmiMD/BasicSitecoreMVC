@@ -1,0 +1,74 @@
+//Revision: 8ef57b1f-27c9-4f30-9efe-84e3bb48cf31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// IMultiList Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Folder Template/MultiList</para>	
+	/// <para>ID: e474e3bb-494c-461c-9de7-ccf58e677c09</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IMultiListConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IMultiList : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class IMultiListConstants{
+
+			public const string TemplateIdString = "e474e3bb-494c-461c-9de7-ccf58e677c09";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "MultiList";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// MultiList
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Folder Template/MultiList</para>	
+	/// <para>ID: e474e3bb-494c-461c-9de7-ccf58e677c09</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IMultiListConstants.TemplateIdString)] //, Cachable = true
+	public partial class MultiList  : GlassBase, IMultiList 
+	{
+	   
+			
+	}
+
+}
+

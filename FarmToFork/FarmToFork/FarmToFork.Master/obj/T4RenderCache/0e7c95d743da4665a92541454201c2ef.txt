@@ -1,0 +1,108 @@
+//Revision: e35c4536-ee18-4ab4-9022-ae2eecec8975
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// IHomePage Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/HomePage</para>	
+	/// <para>ID: 0e7c95d7-43da-4665-a925-41454201c2ef</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IHomePageConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IHomePage : IGlassBase , global::Foundation.Serialization.I_Content, global::Foundation.Serialization.I_PageNotFound
+	{
+			
+	}
+
+
+	public static partial class IHomePageConstants{
+
+			public const string TemplateIdString = "0e7c95d7-43da-4665-a925-41454201c2ef";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "HomePage";
+
+		
+			
+			public static readonly ID ContentFieldId = new ID("69047b4f-add7-4734-b55f-d329a44f72aa");
+			public const string ContentFieldName = "Content";
+			
+		
+			
+			public static readonly ID ErrorPageFieldId = new ID("caef0675-bdca-467e-9270-d0c925aecc74");
+			public const string ErrorPageFieldName = "ErrorPage";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// HomePage
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/HomePage</para>	
+	/// <para>ID: 0e7c95d7-43da-4665-a925-41454201c2ef</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IHomePageConstants.TemplateIdString)] //, Cachable = true
+	public partial class HomePage  : GlassBase, IHomePage 
+	{
+	   
+		
+				/// <summary>
+				/// The Content field.
+				/// <para></para>
+				/// <para>Field Type: Multi-Line Text</para>		
+				/// <para>Field ID: 69047b4f-add7-4734-b55f-d329a44f72aa</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IHomePageConstants.ContentFieldName)]
+				public virtual string Content  {get; set;}
+					
+		
+				/// <summary>
+				/// The ErrorPage field.
+				/// <para></para>
+				/// <para>Field Type: General Link</para>		
+				/// <para>Field ID: caef0675-bdca-467e-9270-d0c925aecc74</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IHomePageConstants.ErrorPageFieldName)]
+				public virtual Link ErrorPage  {get; set;}
+					
+			
+	}
+
+}
+

@@ -1,0 +1,158 @@
+//Revision: 90d843af-add7-4e92-8306-5967a7f6201a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// IHeader Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Feature/FarmToFork/Navigation/Header</para>	
+	/// <para>ID: bb3f2571-14cf-4978-a105-26485efe283e</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IHeaderConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IHeader : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The banner field.
+					/// <para></para>
+					/// <para>Field Type: Image</para>		
+					/// <para>Field ID: e76c5683-a5bd-433a-aa63-3d4019a2372c</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IHeaderConstants.BannerFieldName)]
+					Image Banner  {get; set;}
+			
+			
+					/// <summary>
+					/// The Logo field.
+					/// <para></para>
+					/// <para>Field Type: Image</para>		
+					/// <para>Field ID: 8d62d898-ea2d-4d63-812b-9940ef4ef881</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IHeaderConstants.LogoFieldName)]
+					Image Logo  {get; set;}
+			
+			
+					/// <summary>
+					/// The LogoLink field.
+					/// <para></para>
+					/// <para>Field Type: General Link</para>		
+					/// <para>Field ID: 73585b79-1798-4707-b900-f2576343083d</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IHeaderConstants.LogoLinkFieldName)]
+					Link LogoLink  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IHeaderConstants{
+
+			public const string TemplateIdString = "bb3f2571-14cf-4978-a105-26485efe283e";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Header";
+
+		
+			
+			public static readonly ID BannerFieldId = new ID("e76c5683-a5bd-433a-aa63-3d4019a2372c");
+			public const string BannerFieldName = "banner";
+			
+		
+			
+			public static readonly ID LogoFieldId = new ID("8d62d898-ea2d-4d63-812b-9940ef4ef881");
+			public const string LogoFieldName = "Logo";
+			
+		
+			
+			public static readonly ID LogoLinkFieldId = new ID("73585b79-1798-4707-b900-f2576343083d");
+			public const string LogoLinkFieldName = "LogoLink";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Header
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Feature/FarmToFork/Navigation/Header</para>	
+	/// <para>ID: bb3f2571-14cf-4978-a105-26485efe283e</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IHeaderConstants.TemplateIdString)] //, Cachable = true
+	public partial class Header  : GlassBase, IHeader 
+	{
+	   
+		
+				/// <summary>
+				/// The banner field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: e76c5683-a5bd-433a-aa63-3d4019a2372c</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IHeaderConstants.BannerFieldName)]
+				public virtual Image Banner  {get; set;}
+					
+		
+				/// <summary>
+				/// The Logo field.
+				/// <para></para>
+				/// <para>Field Type: Image</para>		
+				/// <para>Field ID: 8d62d898-ea2d-4d63-812b-9940ef4ef881</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IHeaderConstants.LogoFieldName)]
+				public virtual Image Logo  {get; set;}
+					
+		
+				/// <summary>
+				/// The LogoLink field.
+				/// <para></para>
+				/// <para>Field Type: General Link</para>		
+				/// <para>Field ID: 73585b79-1798-4707-b900-f2576343083d</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IHeaderConstants.LogoLinkFieldName)]
+				public virtual Link LogoLink  {get; set;}
+					
+			
+	}
+
+}
+

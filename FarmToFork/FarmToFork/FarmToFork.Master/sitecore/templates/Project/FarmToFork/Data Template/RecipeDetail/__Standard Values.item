@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {5DF683B9-6153-43F8-B52F-64527B532EED}
+database: master
+path: /sitecore/templates/Project/FarmToFork/Data Template/RecipeDetail/__Standard Values
+parent: {B82A44E4-DA5B-4CB3-B9EB-D0B0DAE0FB0E}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {B82A44E4-DA5B-4CB3-B9EB-D0B0DAE0FB0E}
+templatekey: RecipeDetail
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 465
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{D22D2D77-ECCE-4327-81AD-8C07B6AE77CA}"><r id="{F7FD472E-21A4-4C7D-A27F-2BAE762B1EE7}" ph="Master" uid="{10C24AD8-6653-40D9-A73A-B2E3D18331E4}" /><r id="{C50BF534-FECE-4F68-B493-0BFE39C526F1}" ph="Master" uid="{3EB9FADF-6138-4CAC-8C06-30C48CB9A657}" /><r id="{6604B6CF-FC4D-4729-BD5A-0A5EE3CCC544}" ph="Master" uid="{3E24F1A7-6950-4F31-AD87-2E0FCD92B5F8}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 7d31230f-f4b5-4116-b65d-5967bffa2623
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220512T004134Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7d31230f-f4b5-4116-b65d-5967bffa2623
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220525T101734Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

@@ -1,0 +1,74 @@
+//Revision: 8cdd4535-a965-4ace-8611-a9f178cf457b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// ICarouselFolder Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Feature/FarmToFork/New Carousel Template/CarouselFolder</para>	
+	/// <para>ID: 53946f7d-c85f-412a-9a0d-27e92c7a9c68</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICarouselFolderConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ICarouselFolder : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class ICarouselFolderConstants{
+
+			public const string TemplateIdString = "53946f7d-c85f-412a-9a0d-27e92c7a9c68";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "CarouselFolder";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// CarouselFolder
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Feature/FarmToFork/New Carousel Template/CarouselFolder</para>	
+	/// <para>ID: 53946f7d-c85f-412a-9a0d-27e92c7a9c68</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICarouselFolderConstants.TemplateIdString)] //, Cachable = true
+	public partial class CarouselFolder  : GlassBase, ICarouselFolder 
+	{
+	   
+			
+	}
+
+}
+

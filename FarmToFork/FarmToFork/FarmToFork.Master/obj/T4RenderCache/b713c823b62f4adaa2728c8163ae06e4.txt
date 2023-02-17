@@ -1,0 +1,102 @@
+//Revision: 11c600c2-59af-4afe-ab99-c3a9651c10a4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// IRecipesCategory Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Data Template/RecipesCategory</para>	
+	/// <para>ID: b713c823-b62f-4ada-a272-8c8163ae06e4</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IRecipesCategoryConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IRecipesCategory : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Category Name field.
+					/// <para></para>
+					/// <para>Field Type: Droplink</para>		
+					/// <para>Field ID: 01ff8d12-fbce-4ba6-9ad0-4a08e27c0e04</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IRecipesCategoryConstants.Category_NameFieldName)]
+					Guid Category_Name  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IRecipesCategoryConstants{
+
+			public const string TemplateIdString = "b713c823-b62f-4ada-a272-8c8163ae06e4";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "RecipesCategory";
+
+		
+			
+			public static readonly ID Category_NameFieldId = new ID("01ff8d12-fbce-4ba6-9ad0-4a08e27c0e04");
+			public const string Category_NameFieldName = "Category Name";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// RecipesCategory
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Data Template/RecipesCategory</para>	
+	/// <para>ID: b713c823-b62f-4ada-a272-8c8163ae06e4</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IRecipesCategoryConstants.TemplateIdString)] //, Cachable = true
+	public partial class RecipesCategory  : GlassBase, IRecipesCategory 
+	{
+	   
+		
+				/// <summary>
+				/// The Category Name field.
+				/// <para></para>
+				/// <para>Field Type: Droplink</para>		
+				/// <para>Field ID: 01ff8d12-fbce-4ba6-9ad0-4a08e27c0e04</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IRecipesCategoryConstants.Category_NameFieldName)]
+				public virtual Guid Category_Name  {get; set;}
+					
+			
+	}
+
+}
+

@@ -1,0 +1,74 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Data.Items
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<header>
+    <div class="fade-load-down header header-var2 ext-var4 fadeInDown">
+        <div class="container">
+            <div class="wrapper-logo-banner">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="logo-wrapper">
+                            @Html.Sitecore().Field("Logo", Model.Item)
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="banner-login-wrapper">
+                            <div class="row">
+                            </div>
+                            <div class="banner-header">
+
+                                @Html.Sitecore().Field("banner", Model.Item)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- nav-->
+
+        <div class="top-nav">
+            <div class="container">
+                <nav class="responsive-menu">
+                    <ul>
+                        @foreach (Item navItem in Model.Item.Children)
+                        {
+                            if (!navItem.HasChildren)
+                            {
+                                <li>@Html.Sitecore().Field("NavLink", navItem)</li>
+                            }
+                            else
+                            {
+                                <li>
+                                  @Html.Sitecore().Field("NavLink", navItem)
+                                    <ul>
+                                        @foreach (Item childNavitem in navItem.Children)
+                                        {
+                                            <li>@Html.Sitecore().Field("NavLink", childNavitem)</li>
+                                        }
+                                    </ul>
+                                </li>
+                            }
+                        }
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+        <!-- nav ends-->
+    </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model Foundation.Serialization.Footer
+
+<div class="footer-inner">
+    <div class="text-center">
+        @Html.Glass().Editable(Model, x => x.Logo)
+        <p>
+            @Html.Glass().Editable(Model, x => x.Theme)
+        </p>
+    </div>
+    <div class="footer-copyright text-center wow  flipInY animated" style="visibility: visible; animation-name: flipInY;">
+        <p>@Html.Glass().Editable(Model, x => x.CopyRight)</p>
+    </div>
+</div>
+
+
+
+

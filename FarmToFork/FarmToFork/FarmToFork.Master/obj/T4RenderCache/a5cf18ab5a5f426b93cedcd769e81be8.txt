@@ -1,0 +1,102 @@
+//Revision: 3489f699-d8f7-4416-ba38-e93f79328b88
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// ILink Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Feature/FarmToFork/Navigation/Link</para>	
+	/// <para>ID: a5cf18ab-5a5f-426b-93ce-dcd769e81be8</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ILinkConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ILink : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The NavLink field.
+					/// <para></para>
+					/// <para>Field Type: General Link</para>		
+					/// <para>Field ID: 3037f223-a747-4e17-b2c9-47af22471016</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ILinkConstants.NavLinkFieldName)]
+					Link NavLink  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ILinkConstants{
+
+			public const string TemplateIdString = "a5cf18ab-5a5f-426b-93ce-dcd769e81be8";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Link";
+
+		
+			
+			public static readonly ID NavLinkFieldId = new ID("3037f223-a747-4e17-b2c9-47af22471016");
+			public const string NavLinkFieldName = "NavLink";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Link
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Feature/FarmToFork/Navigation/Link</para>	
+	/// <para>ID: a5cf18ab-5a5f-426b-93ce-dcd769e81be8</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ILinkConstants.TemplateIdString)] //, Cachable = true
+	public partial class Link  : GlassBase, ILink 
+	{
+	   
+		
+				/// <summary>
+				/// The NavLink field.
+				/// <para></para>
+				/// <para>Field Type: General Link</para>		
+				/// <para>Field ID: 3037f223-a747-4e17-b2c9-47af22471016</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ILinkConstants.NavLinkFieldName)]
+				public virtual Link NavLink  {get; set;}
+					
+			
+	}
+
+}
+

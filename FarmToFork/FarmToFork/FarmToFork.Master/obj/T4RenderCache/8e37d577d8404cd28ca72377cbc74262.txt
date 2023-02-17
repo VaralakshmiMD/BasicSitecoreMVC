@@ -1,0 +1,74 @@
+//Revision: 1e8e744f-cd25-45bc-bc27-cfeffd627167
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// ICategory Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Folder Template/Category</para>	
+	/// <para>ID: 8e37d577-d840-4cd2-8ca7-2377cbc74262</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICategoryConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ICategory : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class ICategoryConstants{
+
+			public const string TemplateIdString = "8e37d577-d840-4cd2-8ca7-2377cbc74262";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Category";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// Category
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Folder Template/Category</para>	
+	/// <para>ID: 8e37d577-d840-4cd2-8ca7-2377cbc74262</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICategoryConstants.TemplateIdString)] //, Cachable = true
+	public partial class Category  : GlassBase, ICategory 
+	{
+	   
+			
+	}
+
+}
+

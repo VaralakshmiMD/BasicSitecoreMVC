@@ -1,0 +1,102 @@
+//Revision: 0c520047-751b-4e73-82fa-cb679d62ac1a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// I_PageNotFound Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/_PageNotFound</para>	
+	/// <para>ID: ab9a0aca-7469-4650-889e-cb0f42270e39</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=I_PageNotFoundConstants.TemplateIdString )] //, Cachable = true
+	public partial interface I_PageNotFound : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The ErrorPage field.
+					/// <para></para>
+					/// <para>Field Type: General Link</para>		
+					/// <para>Field ID: caef0675-bdca-467e-9270-d0c925aecc74</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(I_PageNotFoundConstants.ErrorPageFieldName)]
+					Link ErrorPage  {get; set;}
+			
+			
+	}
+
+
+	public static partial class I_PageNotFoundConstants{
+
+			public const string TemplateIdString = "ab9a0aca-7469-4650-889e-cb0f42270e39";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "_PageNotFound";
+
+		
+			
+			public static readonly ID ErrorPageFieldId = new ID("caef0675-bdca-467e-9270-d0c925aecc74");
+			public const string ErrorPageFieldName = "ErrorPage";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// _PageNotFound
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/_PageNotFound</para>	
+	/// <para>ID: ab9a0aca-7469-4650-889e-cb0f42270e39</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=I_PageNotFoundConstants.TemplateIdString)] //, Cachable = true
+	public partial class _PageNotFound  : GlassBase, I_PageNotFound 
+	{
+	   
+		
+				/// <summary>
+				/// The ErrorPage field.
+				/// <para></para>
+				/// <para>Field Type: General Link</para>		
+				/// <para>Field ID: caef0675-bdca-467e-9270-d0c925aecc74</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(I_PageNotFoundConstants.ErrorPageFieldName)]
+				public virtual Link ErrorPage  {get; set;}
+					
+			
+	}
+
+}
+

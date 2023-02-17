@@ -1,0 +1,26 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model Foundation.Serialization.AboutUs
+
+@model RenderingModel
+@{
+    var dataSourceId = RenderingContext.CurrentOrNull.Rendering.DataSource;
+    var dataSource = Sitecore.Context.Database.GetItem(dataSourceId);
+}
+<div class="card" style="background-color: @RenderingContext.Current.Rendering.Parameters["Bg-Color"]">
+
+    <div class="abt-row">
+        <div class="abt-col">
+            <h2>@Html.Glass().Editable(Model, x => x.Title)</h2>
+            @Html.Glass().Editable(Model, x => x.Image)
+
+        </div>
+    </div>
+    <div class="abt-col abt-col-txt align-l">
+        <div class="abt-col-txt" style="color: @RenderingContext.Current.Rendering.Parameters["Text-Color"]">
+            <h3>@Html.Glass().Editable(Model, x => x.SubTitle)</h3>
+            <p>
+                <H4>@Html.Glass().Editable(Model, x => x.Description)</H4>
+            </p>
+        </div>
+    </div>
+</div>

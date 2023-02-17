@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {ED0EFE9C-BB06-4128-83D9-8CC33E2DE1B5}
+database: master
+path: /sitecore/templates/Project/FarmToFork/Tenant Folder/__Standard Values
+parent: {F2250C33-E006-45BF-AD1F-C3CE782A2852}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {F2250C33-E006-45BF-AD1F-C3CE782A2852}
+templatekey: Tenant Folder
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{4F539F2E-9CF9-4453-8E82-3D13DED12AB3}|{215F8C54-68B3-4481-A20B-A5716F06081F}
+----version----
+language: en
+version: 1
+revision: 69f7dad3-25de-4e02-b9e6-3e9222182708
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150416T124121Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+69f7dad3-25de-4e02-b9e6-3e9222182708
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220506T165245Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

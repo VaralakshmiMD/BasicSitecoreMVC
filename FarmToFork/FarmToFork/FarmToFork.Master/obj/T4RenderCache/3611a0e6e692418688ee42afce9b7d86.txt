@@ -1,0 +1,102 @@
+//Revision: d11f10be-29a1-40e2-aa4e-6a47bcf5ff91
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// I_Title Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/_Title</para>	
+	/// <para>ID: 3611a0e6-e692-4186-88ee-42afce9b7d86</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=I_TitleConstants.TemplateIdString )] //, Cachable = true
+	public partial interface I_Title : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Title field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: ae26dccd-dfce-4443-a5dc-6f219439e23e</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(I_TitleConstants.TitleFieldName)]
+					string Title  {get; set;}
+			
+			
+	}
+
+
+	public static partial class I_TitleConstants{
+
+			public const string TemplateIdString = "3611a0e6-e692-4186-88ee-42afce9b7d86";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "_Title";
+
+		
+			
+			public static readonly ID TitleFieldId = new ID("ae26dccd-dfce-4443-a5dc-6f219439e23e");
+			public const string TitleFieldName = "Title";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// _Title
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/_Title</para>	
+	/// <para>ID: 3611a0e6-e692-4186-88ee-42afce9b7d86</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=I_TitleConstants.TemplateIdString)] //, Cachable = true
+	public partial class _Title  : GlassBase, I_Title 
+	{
+	   
+		
+				/// <summary>
+				/// The Title field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: ae26dccd-dfce-4443-a5dc-6f219439e23e</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(I_TitleConstants.TitleFieldName)]
+				public virtual string Title  {get; set;}
+					
+			
+	}
+
+}
+

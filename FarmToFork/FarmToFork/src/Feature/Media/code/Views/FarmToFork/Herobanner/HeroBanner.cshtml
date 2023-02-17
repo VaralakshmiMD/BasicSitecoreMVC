@@ -1,0 +1,110 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Presentation
+@model Feature.Media.Models.HeroBannerModel
+
+
+@if (Model != null && Model.Slides != null)
+{
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            @for (int i = 0; i < Model.Slides.Count; i++)
+            {
+                if (i == 0)
+                {
+                    <li data-target="#myCarousel" data-slide-to="@i" class="active"></li>
+                }
+                else
+                {
+                    <li data-target="#myCarousel" data-slide-to="@i" class=""></li>
+                }
+            }
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            @{
+                int count = 0;
+            }
+            @foreach (var slide in Model.Slides)
+            {
+                var activeClass = count == 0 ? "active" : String.Empty;
+                <div class="item @activeClass">
+                    <img src="@slide.ImagePath" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h1 style="font-size: 50px;">@slide.Title</h1>
+                    </div>
+                </div>
+                count++;
+            }
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+}
+else
+{
+    <h3>No Data Found</h3>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<section class="wrapper-home-slider variation-two">
+        <div class="fluid-slider-var2">
+            @if (Model != null && Model.Slides != null)
+            {
+                <div>
+                    @{
+                        int count = 0;
+                    }
+                    @foreach (var slide in Model.Slides)
+                    {
+                        <img src="@slide.ImagePath" />
+                        <div class="container custom-container-slide">
+                            <div class="slide-detail text-center">
+                                <div class="slide-detail-inner">
+                                    <h2>@slide.Title</h2>
+                                    <div class="short-separator"></div>
+                                    <h2> @slide.SubTitle</h2>
+
+                                </div>
+                            </div>
+                        </div>
+                        count++;
+                    }
+                </div>
+            }
+        </div>
+    </section>*@
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+

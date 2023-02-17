@@ -1,0 +1,102 @@
+//Revision: 55427fa5-caa8-4ba8-9e55-af0a51c87556
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace Foundation.Serialization
+{
+
+
+ 	/// <summary>
+	/// I_Content Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/_Content</para>	
+	/// <para>ID: ef579e73-82f2-421f-800a-09ac894d2245</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=I_ContentConstants.TemplateIdString )] //, Cachable = true
+	public partial interface I_Content : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Content field.
+					/// <para></para>
+					/// <para>Field Type: Multi-Line Text</para>		
+					/// <para>Field ID: 69047b4f-add7-4734-b55f-d329a44f72aa</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(I_ContentConstants.ContentFieldName)]
+					string Content  {get; set;}
+			
+			
+	}
+
+
+	public static partial class I_ContentConstants{
+
+			public const string TemplateIdString = "ef579e73-82f2-421f-800a-09ac894d2245";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "_Content";
+
+		
+			
+			public static readonly ID ContentFieldId = new ID("69047b4f-add7-4734-b55f-d329a44f72aa");
+			public const string ContentFieldName = "Content";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// _Content
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Project/FarmToFork/Base Template/_Content</para>	
+	/// <para>ID: ef579e73-82f2-421f-800a-09ac894d2245</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=I_ContentConstants.TemplateIdString)] //, Cachable = true
+	public partial class _Content  : GlassBase, I_Content 
+	{
+	   
+		
+				/// <summary>
+				/// The Content field.
+				/// <para></para>
+				/// <para>Field Type: Multi-Line Text</para>		
+				/// <para>Field ID: 69047b4f-add7-4734-b55f-d329a44f72aa</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(I_ContentConstants.ContentFieldName)]
+				public virtual string Content  {get; set;}
+					
+			
+	}
+
+}
+

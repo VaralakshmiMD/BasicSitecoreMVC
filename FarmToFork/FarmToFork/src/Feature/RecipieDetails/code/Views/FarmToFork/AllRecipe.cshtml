@@ -1,0 +1,36 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Foundation.Serialization
+@model Foundation.Serialization.RecipeMultiList
+
+<div class="col-md-12">
+    <div class="body-contents">
+        <div class="recipe-set">
+            <h1 class="btn btn-block" style="text-align: center; font-size: 20px; background-color: #6ebe3b;">@Html.Glass().Editable(Model, x => x.Headline)</h1>
+            <hr/>
+            <div class="boxed-recipes text-center">
+                @foreach (RecipeDetail item in Model.RecipesLists)
+                {
+                    <div class="recipe-single  wow flipInY animation-delay400ms animated hoverable" style="visibility: visible; animation-name: flipInY;">
+                        <div class="recipe-image">
+
+                            @Html.Glass().Editable(item, x => x.Image)
+                        </div>
+                        <div class="outer-detail">
+                            <div class="detail">
+                                <h3>
+                                    @Html.Glass().Editable(item, x => x.Title)
+                                </h3>
+                            </div>
+                        </div>
+                        <a href="@item.URL" class="btn">Read More</a>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
